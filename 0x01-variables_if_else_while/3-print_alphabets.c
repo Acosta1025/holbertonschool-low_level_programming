@@ -12,10 +12,10 @@ char abc = 'a';
 char ABC = 'A';
 
 while (abc <= 'z')
-putchar(ABC++);
+putchar(abc++);
 
 while (ABC <= 'Z')
-putchar(abc++);
+putchar(ABC++);
 
 putchar('\n');
 
